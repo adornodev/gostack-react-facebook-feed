@@ -60,3 +60,13 @@ typings/
 # dotenv environment variables file
 .env
 
+
+# dependencies
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
