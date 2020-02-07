@@ -1,0 +1,43 @@
+.commentGroup {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: flex-start;
+}
+
+.avatar {
+  height: 28px;
+  width: 28px;
+  border-radius: 14px;
+}
+
+.contentComment {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: #3e3e3e;
+}
+
+.boxComment {
+  margin-left: 10px;
+  width: 100%;
+  min-height: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #eeeeee;
+  border-radius: 20px;
+}
+
+.nameComment {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  color: #3e3e3e;
+  margin-right: 5px;
+}

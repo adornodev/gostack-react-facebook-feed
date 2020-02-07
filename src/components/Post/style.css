@@ -1,0 +1,67 @@
+.post {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.133916);
+  border-radius: 10px;
+  max-width: 700px;
+  width: 85%;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+}
+
+.name {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #4a4a4a;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 32px;
+}
+
+.date {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #9a9a9a;
+}
+
+.content {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3e3e3e;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+
+.line {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  height: 1px;
+  width: 100%;
+  background: #eeeeee;
+}
