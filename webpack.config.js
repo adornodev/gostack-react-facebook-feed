@@ -22,7 +22,7 @@ module.exports = {
         test: /\.css$/,
         use: [
           {
-            loader: 'style-loader', // permite pegar os arquivos css inportados e botar numa tag style no index.html
+            loader: 'style-loader', // permite pegar os arquivos css importados e botar numa tag style no index.html
           },
           {
             loader: 'css-loader', // permite os imports de dentro do css (ex:background:url('')) ou um arquivo css importando outro arquivo css
